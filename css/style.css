@@ -1,0 +1,148 @@
+.logo{
+	padding-top:15px;
+}
+.input-header{
+		background: transparent;
+		border-top: 0 aliceblue;
+		border-right: 0;
+		border-left: 0;
+		margin-right:15px;
+		color:#FFF;
+		border-bottom-color:#747474;
+		border-radius: 0px;
+		
+}
+.btn{
+	 border-radius: 0px;
+}
+.btn-link {
+	color:#31a090 !important;
+	font-size:11px;
+}
+.e{	
+	margin-bottom: 29px;
+}
+.navbar-inverse
+{
+	background:#000000;
+	margin-bottom: 0;
+	border-radius: 0px;
+}
+.wrap{
+	background:#75dbfd;
+}
+.sliderwrap{
+	padding-top:80px;
+}
+.slidermessage h4{
+	font-weight: 600;
+	line-height: 30px;
+}
+.jumbotron{
+	 border-radius: 0px !important;
+	background-color:#ffffff;
+}
+.checkbox{
+	padding-bottom:15px;
+}
+span{
+	color:#24aa98;
+}
+p{
+	color:#798088;
+}
+.wrap_contact{
+	background:#f4f7f8;
+	padding-top:30px;
+	padding-bottom: 35px;
+	text-align:center;
+}
+.heading h3{
+	color:#21343a;
+}
+
+.glyphicon{
+	font-size: 17px;
+	line-height: 25px;
+}
+.glyphicon #contactno{
+	color:#000000;
+}
+.glyphicon p{
+	display:inline;
+}
+.form-control:focus{
+	box-shadow: none !important;
+}
+.f{
+	color:#000000;
+}
+.headingdel{
+	line-height: 23px;
+}
+.sliderform{
+	padding-left:85px !important;
+	padding-right:85px !important;
+}
+.wrap_footer{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.footerlogo{
+	display:inline;
+}
+a{
+	padding-left: 15px;
+	color:#888f97;
+}
+
+
+/* Media query */
+@media only screen and (max-width: 321px) {
+	.glyphicon{
+		font-size:16px;
+	}
+	.slidermessage h4 {
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.headingdel p{
+		font-size:12px;
+	}
+}
+@media only screen and (max-width: 500px) {
+		.footerleft{
+			padding-bottom:10px;
+			
+		}
+		.pull-right
+		{
+			float:none !important;
+			text-align:center;
+		}
+		.logo{
+			padding-top:5px;
+		    padding-left: 5px;
+	}
+}	
+@media only screen and (max-width: 768px) {
+		
+	.slidermessage h4{
+		font-size:12px !important;
+		line-height: 25px;
+	} 
+
+}
+@media only screen and (max-width: 990px) {
+	.sliderform{
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+	.slidermessage h4{
+		font-size:13px;
+	} 
+	.footerleft{
+		text-align:center;
+		
+	}
+}
